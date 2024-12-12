@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prioridade Alta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+    .main {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    body {
+        background-image: url('https://images.pexels.com/photos/8386681/pexels-photo-8386681.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .main-content {
+        background-image: url('https://images.pexels.com/photos/8386681/pexels-photo-8386681.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Prioridade Alta</h1>
+        <div class="header-buttons">
+            <button onclick="window.location.href='index.html'">Voltar</button>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <a href="index.html"><span class="icon">📋</span>Todas as Tarefas</a>
+        <a href="trabalho.html"><span class="icon">💼</span>Trabalho</a>
+        <a href="pessoais.html"><span class="icon">🏠</span>Pessoais</a>
+        <a href="prioridades.html" class="active"><span class="icon">⚠️</span>Prioridade Alta</a>
+        <a href="finalizadas.html"><span class="icon">✅</span>Finalizadas</a>
+    </div>
+
+    <main class="main">
+        <section>
+            <h2>Lista de Tarefas</h2>
+            <!-- Tarefa 1 -->
+            <div class="task high">
+                <div>
+                    <h3>Enviar relatório final</h3>
+                    <p>Finalizar e enviar o relatório do projeto até 18h.</p>
+                </div>
+                <div class="task-actions">
+                    <button title="Marcar como concluído">✔</button>
+                    <button title="Editar tarefa">✎</button>
+                </div>
+            </div>
+
+            <!-- Tarefa 2 -->
+            <div class="task high">
+                <div>
+                    <h3>Reunião com equipe</h3>
+                    <p>Organizar os tópicos prioritários para a reunião de amanhã.</p>
+                </div>
+                <div class="task-actions">
+                    <button title="Marcar como concluído">✔</button>
+                    <button title="Editar tarefa">✎</button>
+                </div>
+            </div>
+
+            <!-- Tarefa 3 -->
+            <div class="task high">
+                <div>
+                    <h3>Revisar propostas</h3>
+                    <p>Revisar propostas importantes antes da apresentação.</p>
+                </div>
+                <div class="task-actions">
+                    <button title="Marcar como concluído">✔</button>
+                    <button title="Editar tarefa">✎</button>
+                </div>
+            </div>
+            <a href="#" class="add-task-button">Adicionar Nova Tarefa</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Dashboard de Tarefas</p>
+        </footer>
+    </main>
+</body>
+
+</html>

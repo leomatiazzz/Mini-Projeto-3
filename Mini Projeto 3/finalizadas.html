@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas Finalizadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+    .main {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    body {
+        background-image: url('https://images.pexels.com/photos/8850706/pexels-photo-8850706.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .main-content {
+        background-image: url('https://images.pexels.com/photos/8850706/pexels-photo-8850706.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Tarefas Finalizadas</h1>
+        <div class="header-buttons">
+            <button onclick="window.location.href='index.html'">Voltar</button>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <a href="index.html"><span class="icon">📋</span>Todas as Tarefas</a>
+        <a href="trabalho.html"><span class="icon">💼</span>Trabalho</a>
+        <a href="pessoais.html"><span class="icon">🏠</span>Pessoais</a>
+        <a href="prioridades.html"><span class="icon">⚠️</span>Prioridade Alta</a>
+        <a href="finalizadas.html"><span class="icon">✅</span>Finalizadas</a>
+    </div>
+
+    <main class="main">
+        <section>
+            <h2>Lista de Tarefas Finalizadas</h2>
+            <!-- Tarefa Finalizada 1 -->
+            <div class="task completed">
+                <div>
+                    <h3>Relatório do projeto</h3>
+                    <p>Relatório enviado para o gerente em 10/12/2024.</p>
+                </div>
+                <div class="task-actions">
+                    <button title="Excluir tarefa">🗑</button>
+                </div>
+            </div>
+
+            <!-- Tarefa Finalizada 2 -->
+            <div class="task completed">
+                <div>
+                    <h3>Organização de arquivos</h3>
+                    <p>Arquivos organizados no drive da equipe.</p>
+                </div>
+                <div class="task-actions">
+                    <button title="Excluir tarefa">🗑</button>
+                </div>
+            </div>
+
+            <!-- Tarefa Finalizada 3 -->
+            <div class="task completed">
+                <div>
+                    <h3>Pagamento de contas</h3>
+                    <p>Contas de água, luz e internet pagas no início do mês.</p>
+                </div>
+                <div class="task-actions">
+                    <button title="Excluir tarefa">🗑</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Dashboard de Tarefas</p>
+        </footer>
+    </main>
+</body>
+
+</html>

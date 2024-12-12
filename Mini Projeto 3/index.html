@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .main {
+            background-color: transparent;
+            box-shadow: none;
+        }
+
+        body {
+            background-image: url('https://images.pexels.com/photos/273209/pexels-photo-273209.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .main-content {
+            background-image: url('https://images.pexels.com/photos/273209/pexels-photo-273209.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dashboard de Tarefas</h1>
+        <div class="header-buttons">
+            <button class="add-task-btn">Adicionar Tarefa</button>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <a href="index.html" class="active"><span class="icon">📋</span>Todas as Tarefas</a>
+        <a href="trabalho.html"><span class="icon">💼</span>Trabalho</a>
+        <a href="pessoais.html"><span class="icon">🏠</span>Pessoais</a>
+        <a href="prioridades.html"><span class="icon">⚠️</span>Prioridade Alta</a>
+        <a href="finalizadas.html"><span class="icon">✅</span>Finalizadas</a>
+    </div>
+
+
+    <main class="main">
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar tarefas...">
+            <button>🔍</button>
+        </div>
+        <div class="filter-section">
+            <button class="active">Todas</button>
+            <button>Alta Prioridade</button>
+            <button>Média Prioridade</button>
+            <button>Baixa Prioridade</button>
+        </div>
+        <div class="task high">
+            <h3>Tarefa 1: Relatório Final</h3>
+            <p>Finalizar e enviar relatório do projeto até 18h.</p>
+        </div>
+        <div class="task medium">
+            <h3>Tarefa 2: Planejamento da Reunião</h3>
+            <p>Organizar tópicos e material para a reunião de amanhã.</p>
+        </div>
+        <div class="task low">
+            <h3>Tarefa 3: Revisar E-mails</h3>
+            <p>Verificar e responder e-mails pendentes.</p>
+        </div>
+        <footer>
+            <p>&copy; 2024 Dashboard de Tarefas</p>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
